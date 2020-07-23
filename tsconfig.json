@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
+    "target": "ES5",
+    "lib": ["ES2020"],
+    "sourceMap": true,
+    "allowJs": true
   },
   "exclude": [
     "node_modules"
